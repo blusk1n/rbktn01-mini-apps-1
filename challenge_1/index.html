@@ -1,2 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>my mini APP</title>
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+</head>
+<body>
+  <header>
+    <section class = "heading"><h4 id="p1">PLAYER 1: </h4><h3 id="P1S">0</h3></section>
+    <h1>WELCOME TO TIC-TAC-TOE </h1>
+    <section  class = "heading"><h4 id="p2">PLAYER 1: </h4> <h3 id="P2S">0</h3></section>
+  </header>
 
+  <div id="main-game">
+
+        <button class ="btn" id="1" onclick = "play(btn1)" value="00"></button>
+        <button class ="btn" id="2" onclick = "play(btn2)" value="01"></button>
+        <button class ="btn" id="3" onclick = "play(btn3)" value="02"></button>
+
+
+        <button class ="btn" id="4" onclick = "play(btn4)" value="10"></button>
+        <button class ="btn" id="5" onclick = "play(btn5)" value="11"></button>
+        <button class ="btn" id="6" onclick = "play(btn6)" value="12"></button>
+
+
+
+        <button class ="btn" id="7" onclick = "play(btn7)" value="20"></button>
+        <button class ="btn" id="8" onclick = "play(btn8)" value="21"></button>
+        <button class ="btn" id="9" onclick = "play(btn9)" value="22"></button>
+
+  </div>
+  <div class="replay">
+    <button id="replay" onclick="replay()">PLAY AGAIN</button>
+  </div>
+
+  <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
 

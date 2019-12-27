@@ -1,0 +1,111 @@
+*{
+  outline: none;
+  font-family: 'Kaushan Script', cursive;
+
+}
+body{
+  margin:0;
+  padding: 0;
+  box-sizing: content-box;
+  background-color:#F9C4D9;
+  height: 900px;
+
+
+}
+.heading{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  text-align: center;
+  align-items: center;
+}
+h3{
+  font-size: 50px;
+  position: absolute;
+  top: 50px;
+}
+header{
+  display: flex;
+  margin: 0;
+  height: 200px;
+  justify-content: center;
+}
+header h4{
+  width: 20%;
+  text-align: center;
+  font-size: 35px;
+}
+header h1{
+  width:60%;
+  height: 20%;
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Kaushan Script', cursive;
+  bottom: 20px;
+  position: relative;
+  color: #98003C  ;
+}
+#main-game{
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  height: 700px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  /* border: 0.5px solid black; */
+  align-items: center;
+  /* box-shadow: 46px 34px 92px #333333
+  ; */
+  /* border-left: 1px solid black;
+  border-top:1px solid black; */
+  bottom: 50px;
+  position: relative;
+  background:none;
+
+}
+#main-game button{
+  width: 30%;
+  height: 30%;
+  margin-left: 20px;
+  font-size: 60px;
+  background:none;
+  border:0.2px solid #98003C  ;
+  transition: 0.2s;
+
+
+
+   background-color: #eee;
+
+}
+#main-game button:hover{
+  transform: scale(1.08);
+  cursor: pointer;
+  transition: 0.2s;
+  box-shadow: 12px 12px 12px black;
+  z-index: 2;
+}
+.replay{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#replay{
+  width: 30%;
+  height: 40px;
+  font-size: 30px;
+  border:1px solid #98003C
+  ;
+  background: none;
+  z-index: 5;
+  cursor: pointer;
+  transition: 0.2s;
+  position: relative;
+  bottom: 30px;
+
+}
+#replay:hover{
+  transform:scale(1.08);
+  transition: 0.2s;
+  background-color:#eee;
+  color:#98003C ;
+}
