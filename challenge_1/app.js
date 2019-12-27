@@ -144,6 +144,7 @@ let checkMajorDiag = (arr) => {
     }
   }
 }
+//to disable all the button
 let disabledAll = ()=>{
     btns.forEach(elm =>{
     elm.disabled = true;
