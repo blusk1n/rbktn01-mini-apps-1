@@ -5,12 +5,15 @@
 </head>
 <body>
     <h1>hello express</h1>
-    <form id="myform">
-        <input type="text" name="user input">
-        <button>click here</button>
+    <form id="myform" action="/hello" method="POST">
+        <textarea name="test" rows="4" cols="50" id="input">
+            you json file goes here ...
+        </textarea>
+        <input type="submit" value="ok">
     </form>
     <p id="text"></p>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript" src="app.js"></script>
 </body>
 </html>
